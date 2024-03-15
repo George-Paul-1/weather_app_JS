@@ -10,6 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "callback-fetch": "^0.0.1",
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "jest": {
+    "automock": false,
+    "resetMocks": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
   }
 }
